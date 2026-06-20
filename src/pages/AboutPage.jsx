@@ -62,7 +62,7 @@ export default function AboutPage() {
             className="footer-text"
             href="https://www.youtube.com/@cheapmachinesmusic"
           >
-            Youtube
+            YouTube
           </a>
           <a
             className="footer-text"

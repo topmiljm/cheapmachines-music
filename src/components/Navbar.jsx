@@ -1,14 +1,23 @@
 import { NavLink } from 'react-router-dom';
 
 const navItems = [
-  { label: 'Demos', to: '/demos' },
+  { label: 'Music', to: '/music' },
   { label: 'About', to: '/about' },
+  { label: 'Live', to: '/shows' },
 ];
 
 export default function Navbar() {
   return (
     <nav className="navbar">
-      <NavLink to="/" className="navbar-logo">MNTN James</NavLink>
+      <NavLink to="/" className="navbar-logo">
+      <div className="navbar-img-container">
+        <img 
+        className="hero-title-img" 
+        src="/images/cheap-machines-title2.jpg"
+        >
+        </img>
+      </div>
+      </NavLink>
       <div className="navbar-links">
         {navItems.map((item) => (
           <NavLink

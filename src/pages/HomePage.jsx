@@ -31,7 +31,14 @@ export default function HomePage() {
       </div>
 
       <div className="footer-container">
+        <div className="home-footer-divider-container">
+          <div className="home-footer-divider" />
+          <p className="home-footer-text">
+            <i>'Rock and Roll Lives in a Cheap Machine'</i>
+          </p>
+        </div>
         <div className="footer-img-wrapper">
+
           <img className="footer-img" src="/images/follow-text.jpg" alt="" />
         </div>
         <div className="footer-text-container">

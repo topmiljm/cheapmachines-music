@@ -238,9 +238,9 @@ button {
   background: var(--border);
 }
 
-.album-section {
+/* .album-section {
   margin-bottom: 2rem;
-}
+} */
 
 /* =====================
    Home Page
@@ -262,8 +262,100 @@ button {
   margin-bottom: 30px;
 }
 
+.footer-container {
+  background-color: #0e0e12;
+  margin: 0px auto;
+  padding: 30px 0;
+}
 
-.latest-release {
+.footer-img-wrapper {
+  background-image: linear-gradient(5deg,
+      var(--bg-cream),
+      var(--bg-dark-mid),
+      var(--bg-card-hover),
+      var(--text-faint));
+  margin-bottom: 20px;
+}
+
+.footer-img {
+  width: 40%;
+  display: flex;
+  margin: 0.25px auto 10px;
+  border-radius: 20px;
+}
+
+@media (min-width: 768px) {
+  .footer-img {
+    width: 20%;
+  }
+}
+
+.footer-text-container {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  color: var(--bg-cream);
+  gap: 1rem;
+}
+
+.footer-text {
+  color: var(--bg-cream);
+  text-decoration: none;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  padding: 0;
+  background: none;
+  border: none;
+  font-family: Georgia;
+  transition: color 0.15s;
+}
+
+.footer-text:hover {
+  color: var(--accent-hover);
+
+}
+
+.contact-btn {
+  display: flex;
+  margin: 1.25rem auto 10px;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 28px;
+  border: 1px solid var(--accent);
+  color: var(--accent);
+  font-size: 12px;
+  border-radius: 4px;
+  letter-spacing: 0.08em;
+  font-family: Georgia, serif;
+  background: none;
+  text-transform: uppercase;
+  transition: background 0.15s;
+}
+
+.contact-btn:hover {
+  background: var(--bg-card);
+}
+
+.section-label-footer {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--text-muted);
+  font-weight: 500;
+  margin: 1.5rem 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 99%;
+}
+
+.section-divider-footer {
+  flex: 1;
+  height: 0.5px;
+  background: var(--text-muted);
+}
+
+/* .latest-release {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
@@ -319,7 +411,7 @@ button {
 .latest-release__tracks {
   flex: 1;
   min-width: 0;
-}
+} */
 
 /* =====================
    Album Grid

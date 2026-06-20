@@ -33,10 +33,53 @@ export default function AboutPage() {
             And then lightning struck.
             Three times... in the individual forms of Bobby Gaglini (bass/backing vocals), Will Thomas Brunet (drums), and John Carey (keyboards/synthesizers).
             The combination of their talents brought Cheap Machines to life. Since then, the five-some have relentlessly attacked the Los Angeles live music scene.
-            Rock and roll lives in a Cheap Machine.
+          </p>
+          <br></br>
+          <div className="section-divider" />
+          <p className="shows-text">
+            <i>'Rock and Roll Lives in a Cheap Machine'</i>
           </p>
         </div>
       </div>
+
+      <div className="footer-container">
+        <div className="footer-img-wrapper">
+          <img className="footer-img" src="/images/follow-text.jpg" alt="" />
+        </div>
+        <div className="footer-text-container">
+          <a
+            className="footer-text"
+            href="https://www.instagram.com/cheapmachines"
+          >
+            Instagram
+          </a>
+          <a
+            className="footer-text"
+            href="https://www.youtube.com/@cheapmachinesmusic"
+          >
+            Youtube
+          </a>
+          <a
+            className="footer-text"
+            href="https://open.spotify.com/artist/3wqqrOCaUwiPlkWuH6sOZs?si=pgPEU6dxQ32fZEujxdpBvQ&nd=1&dlsi=4eec7bde4700474f"
+          >
+            Spotify
+          </a>
+          <a
+            className="footer-text"
+            href="https://www.tiktok.com/@cheapmachines?is_from_webapp=1&sender_device=pc"
+          >
+            Tik Tok
+          </a>
+        </div>
+        <button className="contact-btn">
+          Contact Cheap Machines
+        </button>
+
+        <div className="section-label-footer">
+          <div className="section-divider-footer" />
+        </div>
+      </div >
     </>
   );
 }

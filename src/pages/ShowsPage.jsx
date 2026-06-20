@@ -14,8 +14,9 @@ export default function ShowsPage() {
           <p className="shows-text">
             Vinny's ...
           </p>
+
           <div className="section-label">
-            Live Performance — 'Better Off Dead' &nbsp;·&nbsp; 2025
+            Live Studio Performance — 'Better Off Dead' &nbsp;·&nbsp; 2025
             <div className="section-divider" />
           </div>
           <div className="video-container">
@@ -27,7 +28,7 @@ export default function ShowsPage() {
             />
 
             <div className="section-label">
-              Live Performance — 'Moonlighting' &nbsp;·&nbsp; 2025
+              Live Studio Performance — 'Moonlighting' &nbsp;·&nbsp; 2025
               <div className="section-divider" />
             </div>
             <iframe
@@ -36,6 +37,26 @@ export default function ShowsPage() {
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
             />
+
+            <div className="section-label">
+              Current Live Band
+              <div className="section-divider" />
+            </div>
+            <p className="shows-text">
+              <strong> &nbsp;·&nbsp;Ian Barr</strong> -- lead & backing vocals/lead guitar
+              <br></br>
+              <strong> &nbsp;·&nbsp;Travis Kelly</strong> -- lead & backing vocals/rhythm guitar
+              <br></br>
+              <strong> &nbsp;·&nbsp;Bobby Gaglini</strong> -- bass/backing vocals
+              <br></br>
+              <strong> &nbsp;·&nbsp;Will Thomas Brunet</strong> -- drums
+              <br></br>
+              <strong> &nbsp;·&nbsp;John Carey</strong> -- keyboards/synthesizers
+            </p>
+            <div className="section-divider" />
+            <p className="shows-text">
+              <i>'Rock and Roll Lives in a Cheap Machine'</i>
+            </p>
           </div>
         </div>
 

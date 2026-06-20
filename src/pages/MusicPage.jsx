@@ -26,6 +26,10 @@ export default function MusicPage() {
                         />
                     ))}
                 </div>
+                <div className="section-divider" />
+                <p className="shows-text">
+                    <i>'Rock and Roll Lives in a Cheap Machine'</i>
+                </p>
             </div>
         </div>
 

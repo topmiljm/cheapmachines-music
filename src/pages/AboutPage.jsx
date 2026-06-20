@@ -8,7 +8,7 @@ export default function AboutPage() {
 
         <div className="page-content--narrow">
           <div className="section-label">
-            About Cheap Machines
+            About <strong>Cheap Machines</strong>
             <div className="section-divider" />
           </div>
 

@@ -355,67 +355,10 @@ button {
   background: var(--text-muted);
 }
 
-/* .latest-release {
-  display: flex;
-  flex-direction: column;
-  gap: 1.5rem;
-  margin-bottom: 2rem;
-}
-
-@media (min-width: 768px) {
-  .latest-release {
-    flex-direction: row;
-    align-items: flex-start;
-  }
-}
-
-.latest-release__art {
-  display: block;
-  width: 100%;
-  max-width: 320px;
-  margin: 0 auto;
-  border-radius: 20px;
-  overflow: hidden;
-  border: 0.5px solid var(--border);
-  flex-shrink: 0;
-  transition: transform 0.15s;
-}
-
-.latest-release__art:hover {
-  transform: translateY(-2px);
-}
-
-@media (min-width: 768px) {
-  .latest-release__art {
-    width: 320px;
-    margin: 0;
-  }
-}
-
-.latest-release__art img {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-
-.latest-release__placeholder {
-  width: 100%;
-  aspect-ratio: 1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 3rem;
-  color: rgba(255, 255, 255, 0.6);
-}
-
-.latest-release__tracks {
-  flex: 1;
-  min-width: 0;
-} */
-
 /* =====================
    Album Grid
    ===================== */
+
 .album-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
@@ -450,6 +393,7 @@ button {
 /* =====================
    Album Card
    ===================== */
+
 .album-card {
   background: var(--bg-dark-mid);
   border-radius: 10px;
@@ -614,4 +558,125 @@ button {
   font-size: 16px;
   line-height: 1.8;
   color: var(--border);
+}
+
+/* =====================
+   Contact Page
+   ===================== */
+
+.contact-page {
+  min-height: 100vh;
+  background: #000;
+  color: var(--text-light);
+  padding: 20px 20px;
+}
+
+.contact-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.contact-title {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+  color: var(--text-muted);
+}
+
+.contact-page-img-wrapper {
+  background-image: linear-gradient(5deg,
+      var(--bg-cream),
+      var(--bg-dark-mid),
+      var(--bg-card-hover),
+      var(--text-faint));
+  margin-bottom: 30px;
+}
+
+.contact-page-img {
+  width: 80%;
+  display: flex;
+  margin: 0.25px auto 10px;
+  border-radius: 20px;
+}
+
+@media (min-width: 768px) {
+  .contact-page-img {
+    width: 40%;
+  }
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+  margin-top: 30px;
+}
+
+.name-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.field-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.field-group span {
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+}
+
+.field-group input,
+.field-group textarea {
+  width: 100%;
+  border: none;
+  background: var(--bg-cream);
+  color: var(--bg-card);
+  font-size: 1rem;
+  padding: 16px;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.field-group input:hover,
+.field-group textarea:hover {
+  background-color: var(--text-muted);
+}
+
+.field-group textarea {
+  resize: vertical;
+  min-height: 140px;
+}
+
+.contact-submit {
+  width: 160px;
+  height: 50px;
+  margin: 10px auto 20px;
+  border: none;
+  background: var(--accent);
+  color: var(--text-light);
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+  border-radius: 30px;
+}
+
+.contact-submit:hover {
+  opacity: 0.85;
+  transform: translateY(-1px)
+}
+
+@media (max-width: 768px) {
+  .name-row {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-title {
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+  }
 }

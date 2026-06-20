@@ -11,7 +11,7 @@ export default function MusicPage() {
 
             <div className="page-content--narrow">
                 <div className="section-label">
-                    Cheap Machines Discography
+                    <strong>Cheap Machines</strong> &nbsp;·&nbsp; Discography
                     <div className="section-divider" />
                 </div>
                 <p className="music-text">

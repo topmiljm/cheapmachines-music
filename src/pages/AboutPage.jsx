@@ -1,4 +1,9 @@
+import { useNavigate } from 'react-router-dom';
+
 export default function AboutPage() {
+
+  const navigate = useNavigate();
+
   return (
     <>
       <div className="about-page">
@@ -8,7 +13,7 @@ export default function AboutPage() {
 
         <div className="page-content--narrow">
           <div className="section-label">
-            About <strong>Cheap Machines</strong>
+            About <strong>&nbsp;·&nbsp; Cheap Machines</strong>
             <div className="section-divider" />
           </div>
 
@@ -72,7 +77,9 @@ export default function AboutPage() {
             Tik Tok
           </a>
         </div>
-        <button className="contact-btn">
+        <button
+          onClick={() => navigate('/contact')}
+          className="contact-btn">
           Contact Cheap Machines
         </button>
 

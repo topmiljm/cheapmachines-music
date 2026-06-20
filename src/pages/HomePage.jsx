@@ -60,13 +60,15 @@ export default function HomePage() {
             Tik Tok
           </a>
         </div>
-        <button className="contact-btn">
+        <button
+          onClick={() => navigate('/contact')}
+          className="contact-btn">
           Contact Cheap Machines
         </button>
 
         <div className="section-label-footer">
           <div className="section-divider-footer" />
-           &nbsp;·&nbsp; JMT
+          &nbsp;·&nbsp; JMT
         </div>
       </div >
     </>

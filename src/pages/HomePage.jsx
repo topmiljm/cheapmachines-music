@@ -64,7 +64,7 @@ export default function HomePage() {
             className="footer-text"
             href="https://www.tiktok.com/@cheapmachines?is_from_webapp=1&sender_device=pc"
           >
-            Tik Tok
+            TikTok
           </a>
         </div>
         <button

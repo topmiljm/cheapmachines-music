@@ -18,6 +18,10 @@ export default function AlbumCard({ album, onClick }) {
         <div className="album-card__meta">
           {album.year} · {album.tracksTotal} tracks
         </div>
+
+        <div className="album-card__spotify">
+          Listen on Spotify →
+        </div>
       </div>
     </div>
   );

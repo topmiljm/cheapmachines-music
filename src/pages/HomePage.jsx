@@ -10,7 +10,7 @@ export default function HomePage() {
 
       <div className="page-content">
         <div className="section-label">
-          Latest — 'Run Like Hell' &nbsp;·&nbsp; 2026
+          Latest Video — 'Run Like Hell' &nbsp;·&nbsp; 2026
           <div className="section-divider" />
         </div>
 

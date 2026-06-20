@@ -504,7 +504,7 @@ button {
 .about-text {
   font-size: 16px;
   line-height: 1.8;
-  color: var(--text-faint);
+  color: var(--text-light);
 }
 
 /* =====================
@@ -534,6 +534,44 @@ button {
   .shows-page-img {
     width: 40%;
   }
+}
+
+.shows-list {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  color: var(--text-light);
+  margin-bottom: 50px;
+}
+
+.shows-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 0.75rem 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  font-family: inherit;
+}
+
+.shows-row--header {
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 0.85rem;
+  opacity: 0.7;
+}
+
+.shows-row a:hover {
+  color: var(--accent);
+}
+
+.shows-row a, span:nth-child(2) {
+  text-align: center;
+  text-decoration: none;
+  color: var(--text-light);
+}
+
+.shows-row span:nth-child(3) {
+  text-align: right;
 }
 
 .shows-text {

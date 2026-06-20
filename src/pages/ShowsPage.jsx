@@ -11,9 +11,26 @@ export default function ShowsPage() {
             Upcoming Shows
             <div className="section-divider" />
           </div>
-          <p className="shows-text">
-            Vinny's ...
-          </p>
+
+          <div className="shows-list">
+            <div className="shows-row shows-row--header">
+              <span>Date</span>
+              <span>Venue</span>
+              <span>Time</span>
+            </div>
+
+            <div className="shows-row">
+              <span>6/31/26</span>
+              <a href="https://dipiazzas.com/">Dipiazza's</a>
+              <span>8:00 PM</span>
+            </div>
+
+            <div className="shows-row">
+              <span>6/31/26</span>
+              <a href="https://whiskyagogo.com/calendar/">Whiskey A Go Go</a>
+              <span>7:30 PM</span>
+            </div>
+          </div>
 
           <div className="section-label">
             Live Studio Performance — 'Better Off Dead' &nbsp;·&nbsp; 2025

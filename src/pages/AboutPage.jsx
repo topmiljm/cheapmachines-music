@@ -41,7 +41,7 @@ export default function AboutPage() {
           </p>
           <br></br>
           <div className="section-divider" />
-          <p className="shows-text">
+          <p className="shows-quote">
             <i>'Rock and Roll Lives in a Cheap Machine'</i>
           </p>
         </div>

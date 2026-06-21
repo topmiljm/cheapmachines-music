@@ -56,7 +56,7 @@ export default function ShowsPage() {
             />
 
             <div className="section-label">
-              Current Live Band
+              Current Lineup
               <div className="section-divider" />
             </div>
             <p className="shows-text">

@@ -8,7 +8,7 @@ export default function AboutPage() {
     <>
       <div className="about-page">
         <div className="about-page-img-wrapper">
-          <img className="about-page-img" src="/images/About-img.png" alt="" />
+          <img className="about-page-img" src="/images/About-img2.png" alt="" />
         </div>
 
         <div className="page-content--narrow">

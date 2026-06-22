@@ -45,24 +45,28 @@ export default function HomePage() {
           <a
             className="footer-text"
             href="https://www.instagram.com/cheapmachines"
+            target="_blank"
           >
             Instagram
           </a>
           <a
             className="footer-text"
             href="https://www.youtube.com/@cheapmachinesmusic"
+            target="_blank"
           >
             YouTube
           </a>
           <a
             className="footer-text"
             href="https://open.spotify.com/artist/3wqqrOCaUwiPlkWuH6sOZs?si=pgPEU6dxQ32fZEujxdpBvQ&nd=1&dlsi=4eec7bde4700474f"
+            target="_blank"
           >
             Spotify
           </a>
           <a
             className="footer-text"
             href="https://www.tiktok.com/@cheapmachines?is_from_webapp=1&sender_device=pc"
+            target="_blank"
           >
             TikTok
           </a>

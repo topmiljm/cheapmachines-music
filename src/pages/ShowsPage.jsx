@@ -21,13 +21,13 @@ export default function ShowsPage() {
 
             <div className="shows-row">
               <span>6/31/26</span>
-              <a href="https://dipiazzas.com/">Dipiazza's →</a>
+              <a href="https://dipiazzas.com/" target="_blank">Dipiazza's →</a>
               <span>8:00 PM</span>
             </div>
 
             <div className="shows-row">
               <span>6/31/26</span>
-              <a href="https://whiskyagogo.com/calendar/">Whiskey A Go-Go →</a>
+              <a href="https://whiskyagogo.com/calendar/" target="_blank">Whiskey A Go-Go →</a>
               <span>7:30 PM</span>
             </div>
           </div>

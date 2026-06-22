@@ -331,7 +331,6 @@ button {
 
 .footer-text:hover {
   color: var(--accent-hover);
-
 }
 
 .contact-btn {
@@ -562,10 +561,11 @@ button {
 }
 
 .shows-row a:hover {
-  color: var(--accent);
+  color: var(--accent-hover);
 }
 
-.shows-row a, span:nth-child(2) {
+.shows-row a,
+span:nth-child(2) {
   text-align: center;
   text-decoration: none;
   color: var(--text-light);

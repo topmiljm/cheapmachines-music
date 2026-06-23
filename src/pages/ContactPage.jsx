@@ -50,7 +50,6 @@ export default function ContactPage() {
                 <form className="contact-form" onSubmit={handleSubmit}>
                     <div className="form-section">
                         <p>* required field</p>
-
                         <div className="name-row">
                             <div className="field-group">
                                 <span>First Name *</span>
